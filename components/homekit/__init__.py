@@ -110,7 +110,7 @@ async def to_code(config):
                 cg.add_define("USE_HOMEKEY")
                 add_idf_component(
                     name="HK-HomeKit-Lib",
-                    repo="https://github.com/rednblkx/HK-HomeKit-Lib.git",
+                    repo="https://github.com/thathome/HK-HomeKit-Lib.git",
                     ref="a4af730ec54536e1ba931413206fec89ce2b6c4f"
                 )
                 for conf in l.get("on_hk_success", []):
